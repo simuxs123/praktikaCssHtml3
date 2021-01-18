@@ -1,0 +1,81 @@
+:root {
+    --lightblue: #62cef8;
+    --orange: rgb(243, 168, 28);
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 237, 237);
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 2.3rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.event {
+    flex: 0 0 40%;
+    padding: 2rem 0;
+    background-color: var(--white);
+    border: 2px solid rgb(214, 204, 204);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#price1 {
+    color: var(--lightblue);
+}
+
+#price2 {
+    color: var(--orange);
+}
+
+button {
+    padding: 1rem 1.3rem;
+    color: var(--white);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#button1 {
+    background-color: var(--lightblue);
+}
+
+#button2 {
+    background-color: var(--orange);
+}
+
+.type {
+    color: grey;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+.features {
+    margin:.8rem 0;
+}
+
+.features p {
+    color: rgb(168, 168, 168);
+    font-weight: 300;
+    text-align: center;
+    padding: .7rem 0;
+}
